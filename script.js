@@ -16,3 +16,17 @@ let body = document.querySelector("body");
 let navBar = document.querySelector(".navbar");
 let menuBtn = document.querySelector(".menu-btn");
 let cancelBtn = document.querySelector(".cancel-btn");
+
+menuBtn.onclick = () => {
+  navBar.classList.add("active"); // Show the navbar
+  menuBtn.style.display = "none"; // Hide menu icon
+  cancelBtn.style.display = "block"; // Show cancel icon
+  body.classList.add("disabledScroll"); // Optional: prevent background scroll
+};
+
+cancelBtn.onclick = () => {
+  navBar.classList.remove("active"); // Hide the navbar
+  menuBtn.style.display = "block"; // Show menu icon
+  cancelBtn.style.display = "none"; // Hide cancel icon
+  body.classList.remove("disabledScroll");
+};

@@ -17,12 +17,12 @@
     background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-    background: #6e93f7;
+    background: #d479dc;
     border-radius: 12px;
     transition: all 0.3s ease;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #4070f4;
+    background: #9945e7;
 }
 /* navbar styling */
 nav{
@@ -34,7 +34,7 @@ nav{
   font-family: 'Ubuntu', sans-serif;
 }
 nav.sticky{
-  background: #4070f4;
+  background: #9945e7;
   padding: 13px 0;
 }
 nav .navbar{
@@ -46,7 +46,7 @@ nav .navbar{
 nav .navbar .logo a{
   font-weight: 500;
   font-size: 35px;
-  color: #4070f4;
+  color: #9945e7;
   margin-left: 30px;
 }
 nav.sticky .navbar .logo a, .logo a span{
@@ -66,7 +66,7 @@ nav.sticky .navbar .logo a, .logo a span{
     transition: color 0.3s ease;
 }
 .navbar .menu a:hover{
-  color: #4070f4;
+  color: #9945e7;
 }
 nav.sticky .menu a{
   color: #FFF;
@@ -75,7 +75,7 @@ nav.sticky .menu a:hover{
   color: #0E2431;
 }
 .navbar .media-icons a{
-  color: #4070f4;
+  color: #9945e7;
   font-size: 18px;
   margin: 0 6px;
   margin-right: 10px;
@@ -96,7 +96,7 @@ nav .menu-btn,
   display: none;
 }
 nav .menu-btn{
-  color: #4070f4;
+  color: #9945e7;
 }
 nav.sticky .menu-btn{
   color: #FFF;
@@ -107,20 +107,22 @@ nav.sticky .menu-btn{
 /* home section styling */
 .hero-section {
   padding: 100px 20px;
-  background: #fff
+  background: #fff;
   text-align: center;
+
+  
 }
 .hero-content h1 {
   font-size: 2.5em;
   color: #333;
 }
 .highlight {
-  color: #007BFF;
+  color: #9945e7;
   font-weight: bold;
 }
 .hero-content h2 {
   font-size: 1.8em;
-  color: #007BFF;
+  color: #9945e7;
 }
 .hero-buttons .btn {
   display: inline-block;
@@ -131,24 +133,34 @@ nav.sticky .menu-btn{
   transition: background 0.3s ease;
 }
 .primary {
-  background-color: #007BFF;
+  background-color: #FF8F7A;
   color: white;
 }
+.primary:hover {
+  background: #F2C6D4; /* Soft Rose */
+  color: #5D3A6A;
+}
 .secondary {
-  border: 2px solid #007BFF;
-  color: #007BFF;
+  border: 2px solid #FF8F7A;
+  color: #FF8F7A;
   background-color: transparent;
 }
 
 .home{
   height: 100vh;
   width: 100%;
-  background: url("images/background.png") no-repeat;
+  background: url("F:\female-developer-background_665280-9658.avif") no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
 }
+.hero-content h1,
+.hero-content h2,
+.hero-content p {
+  color: #5D3A6A; /* Midnight Plum */
+}
+
 .home .home-content{
   width: 90%;
   height: 100%;
@@ -170,7 +182,7 @@ nav.sticky .menu-btn{
 .home .text-three{
   font-size: 40px;
   margin: 5px 0;
-  color: #4070f4;
+  color: #9945e7;
 }
 .home .text-four{
   font-size: 23px;
@@ -186,16 +198,16 @@ nav.sticky .menu-btn{
   border-radius: 6px;
   font-size: 25px;
   font-weight: 400;
-  background: #4070f4;
+  background: #9945e7;
   color: #fff;
   cursor: pointer;
   border: 2px solid transparent;
   transition: all 0.4s ease;
 }
 .home .button button:hover{
-  border-color: #4070f4;
+  border-color: #9945e7;
   background-color: #fff;
-  color: #4070f4;
+  color: #9945e7;
 }
 /* About Section Styling */
 /* Those Elements Where We Have Apply Same CSS,
@@ -231,7 +243,7 @@ section .title span::after{
   position: absolute;
   height: 3px;
   width: 100%;
-  background: #4070f4;
+  background: #9945e7;
   left: 0;
   bottom: 0;
 }
@@ -272,69 +284,61 @@ section .button button{
   border-radius: 4px;
   font-size: 25px;
   font-weight: 400;
-  background: #4070f4;
+  background: #9945e7;
   color: #fff;
   border: 2px solid transparent;
   cursor: pointer;
   transition: all 0.4s ease;
 }
 section .button button:hover{
-  border-color: #4070f4;
+  border-color: #9945e7;
   background-color: #fff;
-  color: #4070f4;
+  color: #9945e7;
 }
  /* My Skills CSS */
- .skills{
-   background: #F0F8FF;
- }
- .skills .content{
-   padding: 40px 0;
- }
- .skills .skills-details{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
- }
- .skills-details .text{
-   width: 50%;
- }
- .skills-details p{
-   color: #0E2431;
-   text-align: justify;
- }
-.skills .skills-details .experience{
-  display: flex;
-  align-items: center;
-  margin: 0 10px;
-}
-.skills-details .experience .num{
-  color: #0E2431;
-  font-size: 80px;
-}
-.skills-details .experience .exp{
-  color: #0E2431;
-  margin-left: 20px;
-  font-size: 18px;
-  font-weight: 500;
-  margin: 0 6px;
-}
-.skills-details .boxes{
-  width: 45%;
+ .skills .boxes{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.skills-details .box{
-  width: calc(100% / 2 - 20px);
+.skills .boxes .box{
   margin: 20px 0;
+  width: calc(100% / 3 - 20px);
+  text-align: center;
+  border-radius: 12px;
+  padding: 30px 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+  cursor: default;
+  transition: all 0.4s ease;
 }
-.skills-details .boxes .topic{
-  font-size: 20px;
-  color: #4070f4;
+.skills .boxes .box:hover{
+  background: #9945e7;
+  color: #fff;
 }
-.skills-details .boxes .per{
-  font-size: 60px;
-  color: #4070f4;
+.skills .boxes .box .icon{
+  height: 50px;
+  width: 50px;
+  background: #9945e7;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+  margin: 0 auto 10px auto;
+  transition: all 0.4s ease;
+}
+.boxes .box:hover .icon{
+  background-color: #fff;
+  color: #9945e7;
+}
+.skills .boxes .box:hover .topic,
+.skills .boxes .box:hover p{
+  color: #0E2431;
+  transition: all 0.4s ease;
+}
+.skills .boxes .box:hover .topic,
+.skills .boxes .box:hover p{
+  color: #fff;
 }
 /* My Services CSS */
 .services .boxes{
@@ -353,13 +357,13 @@ section .button button:hover{
   transition: all 0.4s ease;
 }
 .services .boxes .box:hover{
-  background: #4070f4;
+  background: #9945e7;
   color: #fff;
 }
 .services .boxes .box .icon{
   height: 50px;
   width: 50px;
-  background: #4070f4;
+  background: #9945e7;
   border-radius: 50%;
   text-align: center;
   line-height: 50px;
@@ -370,7 +374,7 @@ section .button button:hover{
 }
 .boxes .box:hover .icon{
   background-color: #fff;
-  color: #4070f4;
+  color: #9945e7;
 }
 .services .boxes .box:hover .topic,
 .services .boxes .box:hover p{
@@ -399,14 +403,14 @@ section .button button:hover{
     }
 
         .portfolio .boxes .box:hover {
-            background: #4070f4;
+            background: #9945e7;
             color: #fff;
         }
 
         .portfolio .boxes .box .icon {
             height: 50px;
             width: 50px;
-            background: #4070f4;
+            background: #9945e7;
             border-radius: 50%;
             text-align: center;
             line-height: 50px;
@@ -418,7 +422,7 @@ section .button button:hover{
 
 .boxes .box:hover .icon {
     background-color: #fff;
-    color: #4070f4;
+    color: #9945e7;
 }
 
 .portfolio .boxes .box:hover .topic,
@@ -471,7 +475,7 @@ section .button button:hover{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: #9945e7;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -530,17 +534,17 @@ section .button button:hover{
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: crimson;
-  border: 2px solid crimson;
+  background: #9945e7;
+  border: 2px solid #9945e7;
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: crimson;
+  color: #9945e7;
   background: none;
 }
 /* Footer CSS */
 footer{
-  background: #4070f4;
+  background: #9945e7;
   padding: 15px 0;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -563,7 +567,7 @@ footer .text span a:hover{
   bottom: 20px;
   right: 20px;
   color: #fff;
-  background: #4070f4;
+  background: #9945e7;
   padding: 7px 12px;
   font-size: 18px;
   border-radius: 6px;
@@ -589,6 +593,10 @@ footer .text span a:hover{
   .about-details .right{
     width: 90%;
     margin: 40px 0;
+  }
+  .skills .boxes .box{
+    margin: 20px 0;
+    width: calc(100% / 2 - 20px);
   }
   .services .boxes .box{
     margin: 20px 0;
@@ -622,7 +630,7 @@ footer .text span a:hover{
     align-items: center;
     transition: all 0.5s ease;
   }
-  .navbar.active .menu{
+  .navbar .active .menu{
     left: 0;
   }
   nav .navbar .menu a{
@@ -631,8 +639,8 @@ footer .text span a:hover{
     color: #fff;
     margin: 10px 0;
   }
-  nav.sticky .menu a:hover{
-    color: #4070f4;
+  nav .sticky .menu a:hover{
+    color: #9945e7;
   }
   nav .navbar .media-icons{
     display: none;
@@ -647,18 +655,8 @@ footer .text span a:hover{
   .home .text-three{
     font-size: 35px;
   }
-  .skills .skills-details{
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .skills-details .text{
-    width: 100%;
-    margin-bottom: 50px;
-  }
-  .skills-details .boxes{
-    justify-content: center;
-    align-items: center;
+  .skills .boxes .box{
+    margin: 20px 0;
     width: 100%;
   }
   .services .boxes .box{
@@ -674,6 +672,7 @@ footer .text span a:hover{
   .contact .text{
     width: 100%;
 }
+
 }
 @media (max-width: 500px){
   .home .text-two{
@@ -681,9 +680,5 @@ footer .text span a:hover{
   }
   .home .text-three{
     font-size: 33px;
-  }
-  .skills-details .boxes .per{
-    font-size: 50px;
-    color: #4070f4;
   }
 }
